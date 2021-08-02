@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1093120524232",
+    "project_id": "refrigeracionlamadrid-app",
+    "storage_bucket": "refrigeracionlamadrid-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093120524232:android:b271c75a47baf147814afd",
+        "android_client_info": {
+          "package_name": "com.refrigeracionLamadrid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093120524232-h5e071e0af4nr9utoc9oofguto030i5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUbRwyuM9sV_W6ro7lMJIr_3N8SciXUZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093120524232-h5e071e0af4nr9utoc9oofguto030i5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093120524232:android:359089b5448f4e33814afd",
+        "android_client_info": {
+          "package_name": "com.refrigerancionlamadrid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093120524232-h5e071e0af4nr9utoc9oofguto030i5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUbRwyuM9sV_W6ro7lMJIr_3N8SciXUZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093120524232-h5e071e0af4nr9utoc9oofguto030i5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="30dp"
+    android:orientation="vertical"
+    tools:context=".fragments.Alta">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+        android:id="@+id/alta_tv_info1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/days_one"
+        android:text="Datos del Cliente"
+        android:textColor="#f7932c"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cliente"
+        app:helperText="Nombre y Apellido del cliente"
+        app:helperTextEnabled="true"
+        app:startIconContentDescription="Cliente"
+        app:startIconDrawable="@drawable/ic_cliente">
+        >
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alta_et_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Direccion"
+        app:startIconDrawable="@drawable/ic_direccion">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/alta_et_direccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo Electrodomestico"
+        app:helperText="Heladera , lavarropa , etc..."
+        app:helperTextEnabled="true"
+        app:startIconDrawable="@drawable/ic_herramienta">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alta_et_electrodomestico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion de la Reparacion"
+        app:startIconDrawable="@drawable/ic_reparacion">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alta_et_reparacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        app:startIconDrawable="@drawable/ic_dinero">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alta_et_precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/alta_bt_generar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generar Recibo" />
+
+    </LinearLayout>
+
+</ScrollView>
